@@ -1,7 +1,6 @@
 ﻿using System.Net;
 using Microsoft.Extensions.Logging;
 using RabbitMQ.Stream.Client;
-using sb2.service.oddschangeexport;
 using StreamConsumeExample;
 
 Console.WriteLine("Hello, World!");

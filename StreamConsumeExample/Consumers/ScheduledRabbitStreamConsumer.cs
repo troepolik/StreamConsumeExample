@@ -2,9 +2,8 @@
 using Microsoft.Extensions.Logging;
 using RabbitMQ.Stream.Client;
 using RabbitMQ.Stream.Client.Reliable;
-using sb2.service.oddschangeexport.Consumers;
 
-namespace sb2.service.oddschangeexport;
+namespace StreamConsumeExample;
 internal class ScheduledRabbitStreamConsumer<TMessage>
     (StreamSystemConfig streamSystemConfig, string queue
     //, IStreamChangeProcessor<TMessage> processor/

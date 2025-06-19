@@ -1,7 +1,7 @@
 ﻿using System.IO.Hashing;
 using RabbitMQ.Stream.Client;
 
-namespace sb2.service.oddschangeexport.Consumers;
+namespace StreamConsumeExample;
 
 internal class CrcCheck : ICrc32
 {
